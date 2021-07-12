@@ -1,21 +1,12 @@
-name: 'Feishu Robot'
-description: 'A simple feishu robot by github action'
+name: 'Zodash Open Terminal'
+description: 'open terminal with github action'
 author: 'Zero <GitHub: whatwewant>'
 branding:
   icon: 'message-square'
   color: 'green'
 color:
 inputs:
-  url:
-    required: true
-    description: web hook url
-  title:
-    required: true
-    description: the msg title
-  text:
-    required: true
-    description: the msg body
-  at:
+  name:
     required: false
     description: the msg metion to
 outputs:
@@ -28,7 +19,4 @@ runs:
   # args:
   #   - node /app/lib/action.js
   env:
-    ACTION_URL: ${{ inputs.url }}
-    ACTION_TITLE: ${{ inputs.title }}
-    ACTION_TEXT: ${{ inputs.text }}
-    ACTION_AT: ${{ inputs.at }}
+    ACTION_NAME: ${{ inputs.name }}
