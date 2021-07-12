@@ -1,0 +1,9 @@
+{
+  "extends": "@zcorky/tsconfig",
+  "compilerOptions": {
+    "outDir": "./lib"
+  },
+  "include": [
+    "src"
+  ]
+}
