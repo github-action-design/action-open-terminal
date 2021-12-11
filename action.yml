@@ -6,9 +6,15 @@ branding:
   color: 'green'
 color:
 inputs:
-  name:
+  code:
     required: false
-    description: the msg metion to
+    description: custom server code
+  relay:
+    required: false
+    description: custom server relay
+  report_url:
+    required: false
+    description: online report url
 outputs:
   time: # id of output
     description: 'The time we greeted you'
@@ -19,4 +25,6 @@ runs:
   # args:
   #   - node /app/lib/action.js
   env:
-    ACTION_NAME: ${{ inputs.name }}
+    CODE: ${{ inputs.code }}
+    RELAY: ${{ inputs.relay }}
+    REPORT_URL: ${{ inputs.report_url }}

@@ -8,8 +8,7 @@
   "author": "Zero <tobewhatwewant@gmail.com>",
   "keywords": [
     "action",
-    "robot",
-    "feishu"
+    "web-terminal"
   ],
   "license": "MIT",
   "scripts": {
@@ -28,8 +27,7 @@
   "dependencies": {
     "@actions/core": "^1.2.7",
     "@actions/github": "^5.0.0",
-    "@zcorky/tsconfig": "^0.0.3",
-    "@zodash/nobot": "^0.0.1"
+    "@znode/nobot": "^0.0.6"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
@@ -38,6 +36,7 @@
     "@types/node": "^15.3.0",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
+    "@zcorky/tsconfig": "^0.0.3",
     "codecov": "^3.8.2",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
