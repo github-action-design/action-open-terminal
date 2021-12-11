@@ -26,8 +26,7 @@
   ],
   "dependencies": {
     "@actions/core": "^1.2.7",
-    "@actions/github": "^5.0.0",
-    "@znode/nobot": "^0.0.6"
+    "@actions/github": "^5.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
