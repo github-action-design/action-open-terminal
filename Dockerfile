@@ -1,1 +1,1 @@
-FROM whatwewant/web-terminal:v0.6.2
+FROM whatwewant/web-terminal:v1.0.24
